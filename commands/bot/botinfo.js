@@ -19,13 +19,13 @@ module.exports = {
 
             embed.setTitle(`Information à Propos De : ${client.user.username}`)
             embed.setURL('https://discord.gg/9ZfB8m5E88')
-            embed.setDescription('**Une description complète et détaillée du Bot** <@1225087364821684379>')
+            embed.setDescription('**Une description complète et détaillée du Bot** <@1140689326913622017>')
             embed.setColor(color)
             .setThumbnail(message.author.avatarURL({ dynamic:true }));
             embed.setTimestamp()
             embed.setFooter(`${client.config.name}`)
             embed.addFields(
-                { name: '👑 Owner / Developer :', value: '<@1208337813339373569>', inline: true },
+                { name: '👑 Owner / Developer :', value: '<@1140689326913622017>', inline: true },
                 { name: '🔌 Latence Ping Bot :', value: `\`${client.ws.ping}Ms\`` },
                 { name: '🚀 Total Server(s) :', value: `\`${client.guilds.cache.size}\``, inline: true },
                 { name: '👥 Total User(s) :', value: `\`${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)}\``, inline: true },
