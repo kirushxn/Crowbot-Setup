@@ -41,7 +41,6 @@ module.exports = {
 			//console.log(NoRoles)
 			const ServerInfo = new Discord.MessageEmbed()
 				.setTitle(`${guild.name} `)
-				.setURL("https://discord.gg/uta")
 				.addField(`Identifiant serveur :`, `__${guild.id}__`, true)
 				.addField(`Niveau de vérification :`, `__${verificationLevels[message.guild.verificationLevel]}__`, true)
 				.addField(`Nombre de membres en total :`, `__${guild.memberCount}__`, true)
