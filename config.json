@@ -1,13 +1,13 @@
 {
-    "color": "#6495ED",
+    "color": "#1c1d22",
     "prefix": "-",
-    "name": "Shanti",
+    "name": "Miyā",
     "defaultjoinmessage": "{user} vient de rejoindre. Il a été invité par **{inviter:name}** qui a désormais **{invite} invitations** !",
     "defaultleavemessage": "{user} vient de quitter. Il avais été invité par **{inviter:name}** qui a désormais **{invite} invitations** ",
     "defaultLevelmessage": "**{user}** vient de passer au level **{level}** bravo à lui !",
     "owner": [
-        "701193167424192574", 
-        "",
+        "1105569591528263730", 
+        "1327320792236822600",
         ""
     ]
 }
